@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+ul {
+  height: 3em;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+  border: 1px solid #f00;
+}
+
+ul li {
+padding-left: 1em;
+padding-top: 1em;
+}
+
+ul li:first-child {
+  padding-left: 0;
+  }
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+.active {
+  color: #f00;
+}
