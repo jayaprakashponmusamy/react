@@ -2,13 +2,14 @@
   margin: 0 auto;
   width: 1000px;
 }
+
 ul {
   height: 3em;
   width: 100%;
   display: flex;
   justify-content: left;
   list-style-type: none;
-  border: 1px solid #f00;
+  color: indianred;
 }
 
 ul li {
@@ -22,9 +23,25 @@ ul li:first-child {
 
 ul li a {
   text-decoration: none;
+  color: indianred;
 }
 
 ul li a:hover {
+  text-decoration: underline;
+}
+ul li ul {
+  display: none;
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul li {
+  padding: 0;
+}
+ul li ul li a {
+  text-decoration: none;
+}
+ul li ul li a:hover {
   text-decoration: underline;
 }
 .active {
