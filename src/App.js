@@ -38,7 +38,6 @@ class App extends Component {
               return (<p> This is the about page </p>);
             }
           } />
-          
           <Route path="/user/:username" exact strict render={
             ({match})=>{
               return (

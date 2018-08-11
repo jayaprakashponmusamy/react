@@ -2,7 +2,6 @@
   margin: 0 auto;
   width: 1000px;
 }
-
 ul {
   height: 3em;
   width: 100%;
@@ -11,21 +10,17 @@ ul {
   list-style-type: none;
   color: indianred;
 }
-
 ul li {
 padding-left: 1em;
 padding-top: 1em;
 }
-
 ul li:first-child {
   padding-left: 0;
   }
-
 ul li a {
   text-decoration: none;
   color: indianred;
 }
-
 ul li a:hover {
   text-decoration: underline;
 }
